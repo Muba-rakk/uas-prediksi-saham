@@ -1,0 +1,19 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data processed & model
+data/processed/
+models/*.h5
+models/*.pkl
+reports/figures/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

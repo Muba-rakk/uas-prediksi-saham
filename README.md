@@ -1,0 +1,1 @@
+# UAS Analitika Data - Prediksi Saham PT Aneka Tambang Tbk Menggunakan Algoritma LSTM
