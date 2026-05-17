@@ -1,19 +1,36 @@
-# Environment
+# Environment & Python
 .venv/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 
-# Jupyter
+# Jupyter Notebooks
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
-# Data processed & model
+# Data Processed & Models (Sesuai AGENTS.md)
 data/processed/
 models/*.h5
 models/*.pkl
-reports/figures/
+models/*.json
 
-# OS
+# Reports & Outputs (Sesuai AGENTS.md)
+reports/figures/
+*.log
+
+# Security & Privacy (Mencegah push API key / kredensial secara tidak sengaja)
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# IDE / Editor Workspaces (Abaikan konfigurasi lokal IDE)
+.vscode/
+.idea/
+.cursor/
+
+# OS Generated Files
 .DS_Store
+.DS_Store?
 Thumbs.db
 desktop.ini
